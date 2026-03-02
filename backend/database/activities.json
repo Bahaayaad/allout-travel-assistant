@@ -1,0 +1,312 @@
+[
+  {
+    "id": "act_001",
+    "name": "Burj Khalifa At The Top",
+    "description": "Experience breathtaking panoramic views of Dubai from the world's tallest building. Visit levels 124 and 125 for an unforgettable sky-high experience.",
+    "category": "Landmark",
+    "image_url": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800",
+    "cancellation_policy": "Free cancellation up to 24 hours before the experience. No refund for cancellations within 24 hours.",
+    "reschedule_policy": "Reschedule free of charge up to 24 hours before the experience. Within 24 hours, a 25% fee applies.",
+    "variations": [
+      {
+        "id": "var_001_1",
+        "name": "Standard – Level 124 & 125",
+        "timings": ["9:00 AM", "12:00 PM", "3:00 PM", "6:00 PM", "9:00 PM"],
+        "group_sizes": [1, 2, 4, 6, 10],
+        "price_per_person": 149,
+        "currency": "AED"
+      },
+      {
+        "id": "var_001_2",
+        "name": "At The Top SKY – Level 148",
+        "timings": ["10:00 AM", "2:00 PM", "7:00 PM"],
+        "group_sizes": [1, 2, 4],
+        "price_per_person": 379,
+        "currency": "AED"
+      },
+      {
+        "id": "var_001_3",
+        "name": "Sunrise Special – Early Access",
+        "timings": ["6:00 AM"],
+        "group_sizes": [1, 2],
+        "price_per_person": 220,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_002",
+    "name": "Desert Safari with BBQ Dinner",
+    "description": "Thrilling dune bashing, camel rides, sandboarding, and a lavish BBQ dinner under the stars at a traditional Bedouin camp.",
+    "category": "Adventure",
+    "image_url": "https://images.unsplash.com/photo-1547245324-d777c6f05e80?w=800",
+    "cancellation_policy": "Free cancellation up to 48 hours before. 50% refund for cancellations 24–48 hours before. No refund within 24 hours.",
+    "reschedule_policy": "Free reschedule up to 48 hours before the experience. A 15% fee applies within 48 hours.",
+    "variations": [
+      {
+        "id": "var_002_1",
+        "name": "Evening Safari with BBQ",
+        "timings": ["3:00 PM"],
+        "group_sizes": [1, 2, 4, 6, 8, 10, 15],
+        "price_per_person": 220,
+        "currency": "AED"
+      },
+      {
+        "id": "var_002_2",
+        "name": "Morning Safari with Breakfast",
+        "timings": ["6:00 AM"],
+        "group_sizes": [1, 2, 4, 6],
+        "price_per_person": 180,
+        "currency": "AED"
+      },
+      {
+        "id": "var_002_3",
+        "name": "Premium Overnight Safari",
+        "timings": ["4:00 PM"],
+        "group_sizes": [2, 4],
+        "price_per_person": 450,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_003",
+    "name": "Dubai Marina Luxury Cruise",
+    "description": "Sail along the stunning Dubai Marina skyline on a luxury yacht. Enjoy fine dining, live entertainment, and spectacular views of the cityscape.",
+    "category": "Cruise",
+    "image_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800",
+    "cancellation_policy": "Free cancellation up to 24 hours before. No refund within 24 hours.",
+    "reschedule_policy": "Free reschedule up to 24 hours before. Within 24 hours, subject to availability and 20% fee.",
+    "variations": [
+      {
+        "id": "var_003_1",
+        "name": "2-Hour Dinner Cruise",
+        "timings": ["7:00 PM", "9:00 PM"],
+        "group_sizes": [2, 4, 6, 8, 10, 20],
+        "price_per_person": 280,
+        "currency": "AED"
+      },
+      {
+        "id": "var_003_2",
+        "name": "1-Hour Sightseeing Cruise",
+        "timings": ["10:00 AM", "2:00 PM", "4:00 PM", "6:00 PM"],
+        "group_sizes": [1, 2, 4, 6, 8],
+        "price_per_person": 120,
+        "currency": "AED"
+      },
+      {
+        "id": "var_003_3",
+        "name": "Private Yacht Charter (4 Hours)",
+        "timings": ["9:00 AM", "2:00 PM", "6:00 PM"],
+        "group_sizes": [4, 8, 12],
+        "price_per_person": 800,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_004",
+    "name": "Dubai Frame Experience",
+    "description": "Walk the glass-floored sky bridge at the iconic Dubai Frame, connecting old Dubai to new Dubai with stunning 360° views.",
+    "category": "Landmark",
+    "image_url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=800",
+    "cancellation_policy": "Free cancellation up to 12 hours before. No refund within 12 hours.",
+    "reschedule_policy": "Free reschedule up to 12 hours before the visit.",
+    "variations": [
+      {
+        "id": "var_004_1",
+        "name": "General Admission",
+        "timings": ["9:00 AM", "11:00 AM", "1:00 PM", "3:00 PM", "5:00 PM"],
+        "group_sizes": [1, 2, 4, 6, 10],
+        "price_per_person": 50,
+        "currency": "AED"
+      },
+      {
+        "id": "var_004_2",
+        "name": "VIP Fast Track",
+        "timings": ["10:00 AM", "2:00 PM", "4:00 PM"],
+        "group_sizes": [1, 2, 4],
+        "price_per_person": 120,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_005",
+    "name": "Ski Dubai Snow Park",
+    "description": "Experience real snow in the middle of the desert! Ski, snowboard, or play in the world-class indoor ski resort at Mall of the Emirates.",
+    "category": "Adventure",
+    "image_url": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800",
+    "cancellation_policy": "Free cancellation up to 48 hours before. 50% charge for cancellations 24–48 hours before. No refund within 24 hours.",
+    "reschedule_policy": "Free reschedule up to 48 hours before. 10% fee applies for rescheduling within 48 hours.",
+    "variations": [
+      {
+        "id": "var_005_1",
+        "name": "Snow Park Pass (2 Hours)",
+        "timings": ["10:00 AM", "12:00 PM", "2:00 PM", "4:00 PM"],
+        "group_sizes": [1, 2, 4, 6, 8],
+        "price_per_person": 195,
+        "currency": "AED"
+      },
+      {
+        "id": "var_005_2",
+        "name": "Ski Slope Pass with Equipment (3 Hours)",
+        "timings": ["9:00 AM", "1:00 PM", "5:00 PM"],
+        "group_sizes": [1, 2, 4],
+        "price_per_person": 350,
+        "currency": "AED"
+      },
+      {
+        "id": "var_005_3",
+        "name": "All-Day Pass",
+        "timings": ["10:00 AM"],
+        "group_sizes": [1, 2, 4, 6],
+        "price_per_person": 550,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_006",
+    "name": "Dubai Creek Abra Ride & Gold Souk Tour",
+    "description": "Ride a traditional wooden abra across Dubai Creek, explore the bustling Gold Souk and Spice Souk with a knowledgeable local guide.",
+    "category": "Culture",
+    "image_url": "https://images.unsplash.com/photo-1451440063999-77a8b2960d2b?w=800",
+    "cancellation_policy": "Free cancellation up to 24 hours before. No refund within 24 hours.",
+    "reschedule_policy": "Free reschedule up to 24 hours before the tour.",
+    "variations": [
+      {
+        "id": "var_006_1",
+        "name": "Morning Cultural Tour (3 Hours)",
+        "timings": ["9:00 AM"],
+        "group_sizes": [1, 2, 4, 6, 8, 10],
+        "price_per_person": 130,
+        "currency": "AED"
+      },
+      {
+        "id": "var_006_2",
+        "name": "Evening Souk Tour with Dinner (5 Hours)",
+        "timings": ["5:00 PM"],
+        "group_sizes": [2, 4, 6, 8],
+        "price_per_person": 250,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_007",
+    "name": "Dubai Helicopter Tour",
+    "description": "See Dubai from the sky on an exhilarating helicopter tour over the Palm Jumeirah, Burj Al Arab, Dubai Marina, and the iconic skyline.",
+    "category": "Adventure",
+    "image_url": "https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=800",
+    "cancellation_policy": "Free cancellation up to 72 hours before. 50% refund 48–72 hours before. No refund within 48 hours.",
+    "reschedule_policy": "Free reschedule up to 72 hours before, subject to availability. A 20% fee applies within 72 hours.",
+    "variations": [
+      {
+        "id": "var_007_1",
+        "name": "12-Minute Doors-On Tour",
+        "timings": ["8:00 AM", "10:00 AM", "12:00 PM", "2:00 PM", "4:00 PM"],
+        "group_sizes": [1, 2, 3],
+        "price_per_person": 850,
+        "currency": "AED"
+      },
+      {
+        "id": "var_007_2",
+        "name": "22-Minute Doors-Off Tour",
+        "timings": ["9:00 AM", "1:00 PM", "5:00 PM"],
+        "group_sizes": [1, 2, 3],
+        "price_per_person": 1500,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_008",
+    "name": "Aquaventure Waterpark at Atlantis",
+    "description": "Splash into the ultimate waterpark experience at Atlantis The Palm with thrilling slides, a lazy river, private beach access, and over 105 rides.",
+    "category": "Family",
+    "image_url": "https://images.unsplash.com/photo-1606922174882-01b05a89bc97?w=800",
+    "cancellation_policy": "Free cancellation up to 24 hours before. No refund within 24 hours.",
+    "reschedule_policy": "Free reschedule up to 24 hours before. Non-refundable within 24 hours.",
+    "variations": [
+      {
+        "id": "var_008_1",
+        "name": "Day Pass (General Admission)",
+        "timings": ["10:00 AM"],
+        "group_sizes": [1, 2, 4, 6, 8, 10, 15, 20],
+        "price_per_person": 345,
+        "currency": "AED"
+      },
+      {
+        "id": "var_008_2",
+        "name": "Premium Cabana Package",
+        "timings": ["10:00 AM"],
+        "group_sizes": [4, 6, 8],
+        "price_per_person": 650,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_009",
+    "name": "Dubai Museum of the Future",
+    "description": "Step inside the most beautiful building on Earth and explore immersive exhibits about the future of humanity, technology, and sustainability.",
+    "category": "Culture",
+    "image_url": "https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=800",
+    "cancellation_policy": "Tickets are non-refundable but can be rescheduled.",
+    "reschedule_policy": "Free reschedule up to 24 hours before. Within 24 hours, subject to availability.",
+    "variations": [
+      {
+        "id": "var_009_1",
+        "name": "General Admission",
+        "timings": ["10:00 AM", "12:00 PM", "2:00 PM", "4:00 PM", "6:00 PM", "8:00 PM"],
+        "group_sizes": [1, 2, 4, 6, 8, 10],
+        "price_per_person": 149,
+        "currency": "AED"
+      },
+      {
+        "id": "var_009_2",
+        "name": "Guided Group Tour",
+        "timings": ["11:00 AM", "3:00 PM"],
+        "group_sizes": [4, 6, 8, 10, 15],
+        "price_per_person": 220,
+        "currency": "AED"
+      }
+    ]
+  },
+  {
+    "id": "act_010",
+    "name": "Dubai Fountain Show & Boat Ride",
+    "description": "Witness the world's largest choreographed fountain system at Dubai Mall. Enhance the experience with a traditional abra boat ride right on Burj Lake.",
+    "category": "Entertainment",
+    "image_url": "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=800",
+    "cancellation_policy": "Free cancellation up to 12 hours before. No refund within 12 hours.",
+    "reschedule_policy": "Free reschedule up to 12 hours before. Non-refundable within 12 hours.",
+    "variations": [
+      {
+        "id": "var_010_1",
+        "name": "Lakeside Viewing (Free)",
+        "timings": ["6:00 PM", "6:30 PM", "7:00 PM", "7:30 PM", "8:00 PM", "8:30 PM", "9:00 PM", "9:30 PM", "10:00 PM"],
+        "group_sizes": [1, 2, 4, 6, 8, 10],
+        "price_per_person": 0,
+        "currency": "AED"
+      },
+      {
+        "id": "var_010_2",
+        "name": "Abra Boat Ride During Show",
+        "timings": ["6:00 PM", "7:00 PM", "8:00 PM", "9:00 PM", "10:00 PM"],
+        "group_sizes": [1, 2, 4, 6],
+        "price_per_person": 75,
+        "currency": "AED"
+      },
+      {
+        "id": "var_010_3",
+        "name": "VIP Waterfront Dining Package",
+        "timings": ["7:00 PM", "9:00 PM"],
+        "group_sizes": [2, 4, 6, 8],
+        "price_per_person": 350,
+        "currency": "AED"
+      }
+    ]
+  }
+]

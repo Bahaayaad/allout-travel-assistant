@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.env/
+*.db
+
+.idea/
+.env.base
+
+node_modules/
+dist/
+
+.DS_Store
+EOF
