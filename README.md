@@ -31,12 +31,17 @@ cp .env.example .env
 Edit `.env`:
 ```env
 GOOGLE_GENAI_USE_VERTEXAI=FALSE
-GOOGLE_API_KEY=google_ai_studio_api_key_here
+GOOGLE_API_KEY=Ai_studio_api_key_here
 
-# For email escalation
-SMTP_USER=your_gmail@gmail.com
-SMTP_PASSWORD=your_app_password
-SUPERVISOR_EMAIL=supervisor@company.com
+
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USER=email@gmail.com
+SMTP_PASSWORD=pasword
+SUPERVISOR_EMAIL=bahaayyadcs@gmail.com
+
+
+WEBHOOK_BASE_URL=http://localhost:8000
 ```
 
 Start the backend:
