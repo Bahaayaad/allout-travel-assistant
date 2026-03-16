@@ -1,14 +1,28 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from google.adk.agents import Agent
 from database import search_activities, get_activity
 
 
 def list_activities() -> list:
+    """Return all available activities with basic info."""
     results = search_activities()
     return [{"id": r["id"], "name": r["name"], "category": r["category"]} for r in results]
 
 
 def get_activity_image(activity_id: str = "", activity_name: str = "") -> dict:
+    """
+    Get the image URL for an activity.
 
+    Args:
+        activity_id: preferred — use this if you have it
+        activity_name: fallback search by name
+
+    Returns:
+        dict with image_url and activity name
+    """
     activity = None
 
     if activity_id:
@@ -43,7 +57,13 @@ def get_cancellation_policy(activity_id: str = "", activity_name: str = "") -> d
 
 
 def get_reschedule_policy(activity_id: str = "", activity_name: str = "") -> dict:
+    """
+    Get the rescheduling policy for an activity.
 
+    Args:
+        activity_id: activity ID
+        activity_name: search by name if ID not available
+    """
     activity = _lookup(activity_id, activity_name)
     if not activity:
         return {"error": "Activity not found"}
@@ -51,7 +71,13 @@ def get_reschedule_policy(activity_id: str = "", activity_name: str = "") -> dic
 
 
 def get_pricing(activity_id: str = "", activity_name: str = "") -> dict:
+    """
+    Get pricing for all variations of an activity.
 
+    Args:
+        activity_id: activity ID
+        activity_name: search by name
+    """
     activity = _lookup(activity_id, activity_name)
     if not activity:
         return {"error": "Activity not found"}
@@ -84,7 +110,7 @@ def _lookup(activity_id, activity_name):
 
 info_agent = Agent(
     name="info_agent",
-    model="gemini-2.5-flash",
+    model="gemini-2.0-flash",
     description="Provides activity images, cancellation/reschedule policies, pricing details, and full activity listings.",
     instruction="""You handle information requests for Allout Travel.
 
